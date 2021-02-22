@@ -24,6 +24,9 @@ Connections are same for both the version, only the code is changed
 - Connect all the relay data pins with the ESP pin number 4,14,12,5,13,1
 - Connect the Relay power and Ground with 5V power supply
 - Connect the ESP power and groound with 3.3V power supply
+- Connect All the COM pin of the relay module with neutral
+- Connect Relay NC pin on the neutral pin of the plug
+- Connect the live and ground wire of the plus directly from the mains
 
 ## Code
 ### [Version 1](version1.ino)
