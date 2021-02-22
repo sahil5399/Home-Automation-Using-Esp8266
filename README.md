@@ -29,7 +29,7 @@ Connections are same for both the version, only the code is changed
 - Connect the live and ground wire of the plus directly from the mains
 
 ## Code
-### [Version 1](version1.ino)
+### [Version 1](Version1.ino)
 Once you upload the code, ESP8266 will act as a server.
 After ESP is connected to the wifi, find the ip address of the ESP device and paste the IP address on the browser.
 You will be asked for username and password. 
@@ -43,7 +43,7 @@ If you want to turn on the relay, you can set the value of action in the http pa
 If you want to turn off the relay, you can set the value of action in the http parameter as 0
 Note: Dont forget to supply the username and password with the http get request 
 
-### [Version 2](version2.ino)
+### [Version 2](Version2.ino)
 In this version, we are using [FauxmoESP by vintlabs](https://github.com/vintlabs/fauxmoESP) 
 This library uses [ESPAsyncTCP](https://github.com/me-no-dev/AsyncTCP) library by [me-no-dev](https://github.com/me-no-dev)
 After installing all the dependencies and uploading the code on our esp, we can issue discover device command on our alexa enabled devices to discover our virtual device and enable us to control them using voice commands.
